@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.toolbars{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: gray;
+  padding: 12px;
+}
+.toolbars__input{
+  display: flex;
+  align-items: center;
+}
+.message-right{
+  text-align: right;
+}
+.container-message{
+  position: fixed;
+  bottom: 68px;
+  left: 0;
+  width: 100%;
+  max-height: calc(100vh - 68px - 64px);
+  overflow: auto;
+  padding: 0 12px;
+}
+.container-message p{
+  display: inline-block;
+  padding: 12px;
+  background: #fff;
+  border-radius: 4px;
+}
+body{
+  background: #e4e4e4;
+}

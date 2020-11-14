@@ -1,0 +1,12 @@
+.toolbars{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: gray;
+    padding: 12px;
+}
+.toolbars__input{
+    display: flex;
+    align-items: center;
+}
